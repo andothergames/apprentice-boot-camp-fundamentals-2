@@ -23,3 +23,5 @@ exercises/kotlin/build/
 
 vendor/
 .phpunit.*
+
+.DS_Store

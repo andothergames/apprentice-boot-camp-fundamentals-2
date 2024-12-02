@@ -1,0 +1,36 @@
+Activity 2
+
+Descriptive test names using five different conventions:
+- CamelCase
+- snake_case
+- Sentence like
+- Behaviour driven (given, when, then)
+- Method under test and conditions
+
+---
+
+If the amount is equal to or less than the balance:
+
+shouldReturnChangedBalanceIfSufficientFunds
+
+should_return_changed_balance_if_sufficient_funds
+
+returns changed balance if sufficient funds
+
+given an amount and balance, when balance is equal to or more than amount, then withdrawal is successful and new balance is calculated
+
+withdraw() with amount and a balance, less than or equal to amount returns successfully changed balance
+
+---
+
+If the amount is greater than the balance:
+
+shouldReturnInsufficientFundsMessageIfAmountMoreThanBalance
+
+should_return_insufficient_funds_balance_if_insufficient_funds
+
+returns suitable message if amount it more than balance
+
+given an amount and balance, when amount is more than amount, then withdrawal is successful and new balance is calculated
+
+withdraw() with an amount greater than balance returns insufficient funds message
